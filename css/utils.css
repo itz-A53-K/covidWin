@@ -1,0 +1,64 @@
+
+.body{
+    /* margin-top: 15vh; */
+    margin-top: 8vh;
+    min-height: 100vh;
+    /* width: 0vh; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(120deg,#2980b9, #8e44ad);
+
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+.alert {
+    position: sticky;
+    bottom: 2vh;
+    top: 10vh;
+    left: 29vw;
+    max-width: 40vw;
+    min-width: 25vw;
+    border: 2px solid rgb(247, 49, 0);
+    background-color: rgb(234, 173, 143);
+    /* background-color: #7f484d; */
+    min-height: 5vh;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.alert div {
+    font-size: .9rem;
+    /* font-family: 'Asap Condensed', sans-serif; */
+    font-family: 'Philosopher', sans-serif;
+
+}
+
+.alert div a {
+    color: rgb(212, 0, 255);
+    font-size: 1rem;
+    text-decoration: underline;
+    transition: .2s ease-in;
+
+}
+
+.alert div a:hover {
+    color: blue;
+    text-decoration: none;
+
+}
+
+.alert .closeAlert {
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-left: 10px;
+}

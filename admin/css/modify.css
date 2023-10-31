@@ -1,0 +1,42 @@
+.menu{
+    background-color: aliceblue;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.menu h1{
+ font-size: 1.5rem;
+ text-decoration: underline;
+}
+
+.form{
+    width: 40vw;
+    margin: 1vh 0;
+    padding: 1vh 2vw;
+}
+.form div{
+    display: flex;
+    flex-direction: column;
+    margin: 12px;
+    
+}
+.form div input ,.form div select,.form div textarea, .form div option{
+   font-size: .8rem;
+   margin: 4px 0;
+   padding: 10px 20px;
+   border: none;
+   background-color:  rgb(239, 238, 236);
+   border-bottom: 2px solid goldenrod;
+   border-radius: 4px;
+   outline: none;
+   box-shadow: 0px 0px 9px 2px gray;
+   cursor: pointer;
+}
+.form div textarea{
+    height: 7vh;
+}
+.form div label{
+    margin: 0 10px;
+}
+
+
