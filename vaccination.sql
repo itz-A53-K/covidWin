@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 31, 2023 at 06:20 PM
+-- Generation Time: Nov 04, 2023 at 06:28 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 8.1.6
 
@@ -39,7 +39,7 @@ CREATE TABLE `admins` (
 --
 
 INSERT INTO `admins` (`admin_id`, `admin_name`, `admin_email`, `password`) VALUES
-(1, 'mamud', 'skmamudikbal@gmail.com', 'admin123');
+(2, 'Simanta', 'covVacAdmin@gmail.com', 'admin@123');
 
 -- --------------------------------------------------------
 
@@ -106,7 +106,7 @@ CREATE TABLE `vaccine_dist_wise` (
 --
 
 INSERT INTO `vaccine_dist_wise` (`dist_id`, `dist_name`, `vacCenter`, `slot`, `stock`) VALUES
-(4, 'Nalbari', 'Milanpur L.P. School', 298, 5442),
+(4, 'Nalbari', 'Milanpur L.P. School', 297, 5441),
 (5, 'Jorhat', '', 247, 401),
 (6, 'Tezpur', '', 300, 500);
 
@@ -147,19 +147,19 @@ ALTER TABLE `vaccine_dist_wise`
 -- AUTO_INCREMENT for table `admins`
 --
 ALTER TABLE `admins`
-  MODIFY `admin_id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `admin_id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `book_slot`
 --
 ALTER TABLE `book_slot`
-  MODIFY `slot_id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `slot_id` int(20) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `user_Id` int(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `user_Id` int(20) NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT for table `vaccine_dist_wise`

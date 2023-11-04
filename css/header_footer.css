@@ -69,7 +69,8 @@
 .navContainerRight h2 em{
     font-size: 0.8rem;
     text-decoration: underline;
-    color: rgb(205, 16, 212);
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
 }
 
 
@@ -140,7 +141,7 @@
 .headerBtn {
     /* margin-right: 3vw; */
     font-size: 1rem;
-    background-color: rgba(225, 83, 199, 0.87);
+    background-color: rgba(83, 114, 225, 0.87);
     padding: 7px 10px;
     border: 1px solid white;
     border-radius: 10px;

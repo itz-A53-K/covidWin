@@ -35,7 +35,7 @@ if(session_status() != PHP_SESSION_ACTIVE){
                         
                         <div class="userDetail">
                          <img class="profileImg" src="profileImage/'.$_SESSION['profileLoc'].'" alt="" srcset="">
-                         <h2>Hi&nbsp; <em>'.$_SESSION['userName'].'</em> </h2>
+                         <h2><em>'.$_SESSION['userName'].'</em> </h2>
                         </div>
                         
                         <button class="headerBtn logoutBtn">Logout</button>

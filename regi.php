@@ -66,7 +66,7 @@
                                 </div>
                                 <div>
                                     <label for="profilePic">Profile photo:</label>
-                                    <input type="file" name="profilePic" id="profilePic" class="input" value="" accept="image/*"/>
+                                    <input type="file" name="profilePic" id="profilePic" class="input" value="" accept="image/*" required/>
                                 </div>
                                 
                                 <div>
