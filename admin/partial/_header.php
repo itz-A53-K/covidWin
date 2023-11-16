@@ -20,10 +20,10 @@ if(session_status() != PHP_SESSION_ACTIVE){
                 echo '
                     <ul>
                         <li class="listItem">
-                            <a class="itemLink" href="admin/adminHome.php">Home</a>
+                            <a class="itemLink" href="adminHome.php">Home</a>
                         </li>
                         <li class="listItem">
-                            <a class="itemLink" href="admin/modify.php">Modify</a>
+                            <a class="itemLink" href="modify.php">Modify</a>
                         </li>
                        
                         

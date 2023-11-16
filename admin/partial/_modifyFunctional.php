@@ -1,6 +1,7 @@
 <?php
 if($_SERVER['REQUEST_METHOD']=='POST'){
     include ('_dbConnect.php');
+    session_start();
 
     $dist_id=$_POST['dist_id'];
     $vac_slot=$_POST['vac_slot'];
@@ -10,8 +11,12 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
     $sql="UPDATE `vaccine_dist_wise` SET  `slot` = '$vac_slot', `stock` = '$vac_stock' WHERE `vaccine_dist_wise`.`dist_id` = $dist_id";
     $result=mysqli_query($conn,$sql);
     if($result){
-        echo 'success';
+        // echo 'success';
+        $alert="Updated Successfully.";
+
     }
+    $_SESSION['alert']=$alert;
+    header('Location: ../adminHome.php'); 
 
     
 }

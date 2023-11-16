@@ -160,10 +160,7 @@
         </div>
     </section>
     <!-- end main -->
-    <footer>
-        
-        <p>Designed & developed by:.</p>
-    </footer>
+    
     <script src="js/captcha.js"></script>
     <script src="script.js"></script>
 

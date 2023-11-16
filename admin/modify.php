@@ -87,8 +87,8 @@
                             ?>
 
     <!-- <a href="#body" class="goToTop" id="goToTop"><button >Go To Top</button></a> -->
-    <script src="/covidWin/admin/js/logout.js"></script>
-    <script src="/covidWin/script.js"></script>
+    <script src="js/logout.js"></script>
+    <script src="../script.js"></script>
 </body>
 
 </html>

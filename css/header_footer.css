@@ -205,3 +205,16 @@ footer p{
     padding-bottom: 10px;
     font-size: .8rem;
 }
+
+
+.activePage {
+    /* active page link css */
+    color: #ff004c;
+}
+
+.activePage::after {
+    content: " ";
+    height: 3px;
+    border-radius: 10px;
+    background-color: rgb(255, 8, 8);
+}
