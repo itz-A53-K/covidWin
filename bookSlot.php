@@ -174,11 +174,11 @@
     ?>
     <footer>
         <h1>Copyright &copy; Covid win.com</h1>
-        <p>Designed & developed by: Mamud, Mahibul.</p>
+        <p>Designed & developed by: </p>
     </footer>
-    <script src="/covidWin/js/bookSlot.js"></script>
-    <script src="/covidWin/js/logout.js"></script>
-    <script src="/covidWin/script.js"></script>
+    <script src="script.js"></script>
+    <script src="js/bookSlot.js"></script>
+    <script src="js/logout.js"></script>
 </body>
 
 </html>
